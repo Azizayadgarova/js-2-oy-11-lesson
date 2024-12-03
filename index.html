@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./main.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-[#444444] flex justify-center  ">
+    <header class=" w-[1440px] h-[11400px]  bg-[#212529]  mt-[100px] mb-[100px] ">
+        <img class="w-[500px] h-[183px] mt-[146px] mb-[48px] m-auto " src="./img.pnj/gif-poke.gif.png" alt="">
+        <div class="flex ml-[60px] gap-[10px]">
+            <input
+                class=" searchInput  p-3 focus:border-transparent focus:outline-none rounded-[6px] border-none placeholder-black w-[209px] h-[36px]"
+                placeholder="search your pokemon" type="search">
+            <select class="select_cattegories w-[100px]" name=" " id=""></select>
+           
+            <select
+                class="select_cattegories2  focus:border-transparent focus:outline-none  rounded-[6px]  placeholder-black w-[209px] h-[36px]"
+                placeholder="sort" name="" id=""></select>
+                <select id="sortSelect">
+                    <option value="largest">Eng katta Pokémonlar</option>
+                    <option value="smallest">Eng kichik Pokémonlar</option>
+                </select>
+        </div>
+
+        <div class="wrapper flex flex-wrap pt-[30px] justify-center "></div>
+    </header>
+
+    <img src="./Heading 2 → Charmander.png" alt="">
+    <script type=" module" src="./pokemons.js"></script>
+    <script type="module" src="./main.js"></script>
+
+</body>
+
+
+</html>
